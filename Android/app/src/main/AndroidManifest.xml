@@ -1,0 +1,33 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.winkk.sdk.demo">
+
+    <!-- List of lib's requirements. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- to check if internet connection is available -->
+
+    <!-- Main configs of the app. -->
+    <application
+        android:name=".DemoApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- Main initial screen of the demo. -->
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <!-- Adding a shortcut to the apps list; making this activity be launched first. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

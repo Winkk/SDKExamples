@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Winkk SDK Demo</string>
+    <string name="start_winkk_auth">Start Winkk Auth</string>
+    <string name="has_strong_auth">Has strong auth: %s</string>
+    <string name="email">Email: %s</string>
+    <string name="first_name">First Name: %s</string>
+    <string name="last_name">Last Name: %s</string>
+    <string name="nickname">Nickname: %s</string>
+    <string name="country">Country: %s</string>
+    <string name="address">Address: %s</string>
+    <string name="phone">Phone: %s</string>
+</resources>
