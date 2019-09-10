@@ -1,6 +1,0 @@
-framework module WinkkSDK {
-  umbrella header "WinkkSDK.h"
-
-  export *
-  module * { export * }
-}
