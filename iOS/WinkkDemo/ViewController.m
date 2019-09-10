@@ -24,8 +24,7 @@
  * Start winkk SDK auth session
  * */
 -(IBAction)doAuthWinkk:(id)sender {
-    Winkk* winkk = [Winkk sharedManager];
-    [winkk start:self];
+    [Winkk.sharedManager start:self];
 }
 
 

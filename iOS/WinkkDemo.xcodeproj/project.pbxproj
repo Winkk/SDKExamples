@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		0765621D232787670047200A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0765621B232787670047200A /* LaunchScreen.storyboard */; };
 		07656220232787670047200A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765621F232787670047200A /* main.m */; };
 		0765622723278F330047200A /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0765622623278F330047200A /* podfile */; };
-		5A0452656D769983BEE10282 /* Pods_WinkkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF06E516518307F724C96B7 /* Pods_WinkkDemo.framework */; };
+		4BE7C609B28833EEB0C7594D /* Pods_WinkkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955E9BBCA5C08230E9E6F83A /* Pods_WinkkDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		0765621C232787670047200A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0765621E232787670047200A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0765621F232787670047200A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0765622623278F330047200A /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
-		0FF06E516518307F724C96B7 /* Pods_WinkkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinkkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53BBEC40C041B7CD6AA20E9F /* Pods-WinkkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkkDemo.release.xcconfig"; path = "Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo.release.xcconfig"; sourceTree = "<group>"; };
-		A11CABC9F0F1F136B17EB382 /* Pods-WinkkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkkDemo.debug.xcconfig"; path = "Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0765622623278F330047200A /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43566391244C28A1288FB598 /* Pods-WinkkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		955E9BBCA5C08230E9E6F83A /* Pods_WinkkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinkkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27E0E893EB1D386C8327195 /* Pods-WinkkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WinkkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0452656D769983BEE10282 /* Pods_WinkkDemo.framework in Frameworks */,
+				4BE7C609B28833EEB0C7594D /* Pods_WinkkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				0765620F232787660047200A /* WinkkDemo */,
 				0765620E232787660047200A /* Products */,
 				36F81C9D962EA890AFE1905E /* Pods */,
-				3F828CC1099E15D366A3EFEC /* Frameworks */,
+				5CB1254D1B20D28556874D8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,16 +84,16 @@
 		36F81C9D962EA890AFE1905E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A11CABC9F0F1F136B17EB382 /* Pods-WinkkDemo.debug.xcconfig */,
-				53BBEC40C041B7CD6AA20E9F /* Pods-WinkkDemo.release.xcconfig */,
+				B27E0E893EB1D386C8327195 /* Pods-WinkkDemo.debug.xcconfig */,
+				43566391244C28A1288FB598 /* Pods-WinkkDemo.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		3F828CC1099E15D366A3EFEC /* Frameworks */ = {
+		5CB1254D1B20D28556874D8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FF06E516518307F724C96B7 /* Pods_WinkkDemo.framework */,
+				955E9BBCA5C08230E9E6F83A /* Pods_WinkkDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,12 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07656223232787670047200A /* Build configuration list for PBXNativeTarget "WinkkDemo" */;
 			buildPhases = (
-				1556ED6D4F81ED1F279BF2F1 /* [CP] Check Pods Manifest.lock */,
+				EC30F8CA291D0C6BE187FA71 /* [CP] Check Pods Manifest.lock */,
 				07656209232787660047200A /* Sources */,
 				0765620A232787660047200A /* Frameworks */,
 				0765620B232787660047200A /* Resources */,
-				1CC10A70EEA1700DD5FDF388 /* [CP] Embed Pods Frameworks */,
 				074397CF2327A2F4008E7282 /* ShellScript */,
+				FF287ED600E208F1D67271E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone\n";
 		};
-		1556ED6D4F81ED1F279BF2F1 /* [CP] Check Pods Manifest.lock */ = {
+		EC30F8CA291D0C6BE187FA71 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,21 +207,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1CC10A70EEA1700DD5FDF388 /* [CP] Embed Pods Frameworks */ = {
+		FF287ED600E208F1D67271E7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo-frameworks.sh",
+				"${PODS_ROOT}/WinKKSDK/WinkkSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WinkkSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WinkkDemo/Pods-WinkkDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -373,7 +378,7 @@
 		};
 		07656224232787670047200A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A11CABC9F0F1F136B17EB382 /* Pods-WinkkDemo.debug.xcconfig */;
+			baseConfigurationReference = B27E0E893EB1D386C8327195 /* Pods-WinkkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,7 +397,7 @@
 		};
 		07656225232787670047200A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53BBEC40C041B7CD6AA20E9F /* Pods-WinkkDemo.release.xcconfig */;
+			baseConfigurationReference = 43566391244C28A1288FB598 /* Pods-WinkkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
