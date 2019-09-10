@@ -29,3 +29,9 @@ Winkk.SDK.initialize(getApplicationContext(), "YOUR_APPLICATION_ID");
 The best place for this initialization is in your `Application`'s `onCreate` method.
 
 6. Start the authorization session with `Winkk.SDK.start(context, callback);` call.
+
+7. If you want to use an obfuscation, make sure to prevent Winkk SDK from it (it is already obfuscated) by adding the following lines to your `proguard-rules.pro`:
+```
+-keep class com.winkk.sdk.** { public protected private *; }
+```
+
