@@ -1,0 +1,4 @@
+target 'WinkkDemo' do
+use_frameworks!
+pod 'WinKKSDK'
+end
