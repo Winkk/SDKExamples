@@ -1,6 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    // Signing config to test obfuscations.
+    signingConfigs {
+        debug {
+            storeFile file('../debug.jks')
+            storePassword '123456789'
+            keyAlias 'test'
+            keyPassword '987654321'
+        }
+    }
+
     // SDK to build project.
     compileSdkVersion 29
     buildToolsVersion '29.0.1'
@@ -42,6 +52,9 @@ android {
             // Obfuscation configs.
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
                                                  'proguard-rules.pro'
+            // For debug purposes.
+            signingConfig signingConfigs.debug
+            debuggable false
         }
         debug {
             debuggable true
