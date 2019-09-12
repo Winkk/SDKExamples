@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     
     // Initialise Winkk SDK
-    [Winkk initialize: @"5d5aafc1670d9d00012ea5e0"];
+    [Winkk initialize: @"5d7a67c8491f1e00016bb9ad"];
     
     // set custom debug mode
     //    Winkk* sharedWinkk = Winkk.sharedManager;

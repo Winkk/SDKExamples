@@ -58,7 +58,7 @@ done
 
 7. Initialize the SDK with your application's ID obtained in the first step:
 ```
-[Winkk initialize: @"5d5aafc1670d9d00012ea5e0"];
+[Winkk initialize: @"YOUR_APPLICATION_ID"];
 ```
 The best place for this initialization is in your `AppDelegate`'s `didFinishLaunchingWithOptions` method.
 
