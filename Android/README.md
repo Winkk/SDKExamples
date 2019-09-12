@@ -1,12 +1,12 @@
 This Android project demonstrates how to integrate and use Winkk SDK.
 
-To launch this demo, [download](https://dev.winkk.com/partner/sdk/winkk_1.0.0_dev.aar) Winkk SDK library AAR-archive and copy it into `app/libs/` folder of the project.
+To launch this demo, [download](https://passport.winkk.com/partner/sdk/winkk_1.0.0.aar) Winkk SDK library AAR-archive and copy it into `app/libs/` folder of the project.
 
 To configure any other Android project to be integrated with Winkk SDK:
 
 1. Make sure you have configured an application integration with **WAuth Mobile** interface and provided your application's package or Bundle ID in the [Partner Tool](https://passport.winkk.com/partner)'s **Applications** section.
 
-2. [Download](https://dev.winkk.com/partner/sdk/winkk_1.0.0_dev.aar) Winkk SDK library AAR-archive and copy it into `libs/` folder of your project's target module.
+2. [Download](https://passport.winkk.com/partner/sdk/winkk_1.0.0.aar) Winkk SDK library AAR-archive and copy it into `libs/` folder of your project's target module.
 
 3. Declare the downloaded library and its' dependencies in `dependencies` section in `build.gradle` file of your project's target module:
 ```

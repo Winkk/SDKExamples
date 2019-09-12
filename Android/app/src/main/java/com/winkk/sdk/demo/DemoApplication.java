@@ -19,7 +19,7 @@ public class DemoApplication extends Application {
         // This initialization is required before any usage of the SDK.
         Winkk.SDK.initialize(
                 getApplicationContext(),
-                "5d5aafc1670d9d00012ea5e0"); // application (interface) ID registered in the Partner Panel
+                "5d7a67c8491f1e00016bb9ad"); // application (interface) ID registered in the Partner Panel
     }
 
 }
